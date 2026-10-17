@@ -1,0 +1,15 @@
+name: smart_camera
+description: A professional task manager built with Flutter.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.11.0+2
+  permission_handler: ^11.3.1
+  path_provider: ^2.1.2
+  gal: ^2.3.0 # للحفظ المباشر في معرض الصور والفيديو
